@@ -17,3 +17,4 @@ def unique_characters_best(my_string):
         comparison[letter] = True
     return True
 
+#nlogn -- heapsort has a constant space complexity for a heap and a time complexity of nlogn
