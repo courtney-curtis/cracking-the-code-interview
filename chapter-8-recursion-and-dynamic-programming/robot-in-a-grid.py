@@ -1,3 +1,5 @@
+# O(r+c)
+
 def robot_path (r, c):
     print(f'{r}, {c}')
     if r == 1 and c == 1:
