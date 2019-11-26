@@ -16,6 +16,10 @@ class LinkedList:
 
     def remove_first_node(self):
         new_first_node = self.first_node.link
+	self.first_node = new_first_node
+
+    def return_head(self):
+	return self.first_node
 
 #characteristics
 # insert an element at the front
